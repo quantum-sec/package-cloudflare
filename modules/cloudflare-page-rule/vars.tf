@@ -221,11 +221,11 @@ variable "server_side_exclude" {
   default     = null
 }
 
-variable "smart_errors" {
-  description = "Whether or not this action is enabled."
-  type        = bool
-  default     = null
-}
+#variable "smart_errors" {
+#  description = "Whether or not this action is enabled."
+#  type        = bool
+#  default     = null
+#}
 
 variable "sort_query_string_for_cache" {
   description = "Whether or not this action is enabled."
